@@ -1,0 +1,14 @@
+# 忽略所有的 build 和 devel 目录
+**/build/
+**/devel/
+
+
+
+
+# 忽略所有的日志文件
+*.log
+
+# 忽略临时文件
+*./vscode
+
+
