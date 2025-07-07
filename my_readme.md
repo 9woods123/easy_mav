@@ -251,3 +251,4 @@ easy@ubuntu:~/easy_mav_ws/vins_ws$ roslaunch vins my_camera.launch
 easy@ubuntu:~/easy_mav_ws/vins_ws$ roslaunch vins vins_rviz.launch 
 
  rosrun vins vins_node /home/easy/easy_mav_ws/vins_ws/src/VINS-Fusion/config/realsense_d435i/realsense_stereo_imu_config.yaml  
+ rosrun loop_fusion loop_fusion_node /home/easy/easy_mav_ws/vins_ws/src/VINS-Fusion/config/realsense_d435i/realsense_stereo_imu_config.yaml  
