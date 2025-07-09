@@ -33,7 +33,7 @@ else()
 endif()
 
 
-
+set(OpenCV_DIR /usr/local/share/OpenCV)
 set(_opencv_version 3)
 # find_package(OpenCV 4 QUIET)
 # if(NOT OpenCV_FOUND)

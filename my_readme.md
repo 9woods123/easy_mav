@@ -52,8 +52,6 @@ git clone --branch arch-arm64 --depth 1 https://github.com/nelvko/clash-for-linu
 
 
 
-
-
 sudo apt purge libopencv-dev libopencv4.2-java libopencv4.2-jni
 sudo apt autoremove
 cd opencv-3.4/
@@ -250,5 +248,8 @@ sudo apt-get install libceres-dev
 easy@ubuntu:~/easy_mav_ws/vins_ws$ roslaunch vins my_camera.launch 
 easy@ubuntu:~/easy_mav_ws/vins_ws$ roslaunch vins vins_rviz.launch 
 
- rosrun vins vins_node /home/easy/easy_mav_ws/vins_ws/src/VINS-Fusion/config/realsense_d435i/realsense_stereo_imu_config.yaml  
- rosrun loop_fusion loop_fusion_node /home/easy/easy_mav_ws/vins_ws/src/VINS-Fusion/config/realsense_d435i/realsense_stereo_imu_config.yaml  
+rosrun vins vins_node /home/easy/easy_mav_ws/vins_ws/src/VINS-Fusion/config/realsense_d435i/realsense_stereo_imu_config.yaml  
+rosrun loop_fusion loop_fusion_node /home/easy/easy_mav_ws/vins_ws/src/VINS-Fusion/config/realsense_d435i/realsense_stereo_imu_config.yaml  
+
+/camera/depth/image_rect_raw
+/camera/color/image_raw
